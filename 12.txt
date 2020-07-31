@@ -1,0 +1,31 @@
+ {
+        "name" : "HostReferenceNumber",
+        "action" : "gettext",
+        "Locator" : "//div[@data-id='hostReferenceNo']"
+        }
+
+
+
+{
+        "name" : "HomePage",
+        "action" : "click",
+        "Locator" :  "//img[@alt='Open Dashboard']"
+        },
+        
+          {
+        "name" : "ClearAllError",
+        "action" : "click",
+        "Locator" :  "//span[text()='Clear all notifications']"
+        },
+        
+          {
+        "name" : "WelcomePage",
+        "action" : "click",
+        "Locator" :  "//span[@id='profileLauncher']"
+        },
+        
+          {
+        "name" : "Logout",
+        "action" : "click",
+        "Locator" :  "//a[@alt='Logout']"
+        },
